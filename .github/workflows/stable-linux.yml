@@ -263,6 +263,9 @@ jobs:
           npm_arch: ppc64
         - vscode_arch: riscv64
           npm_arch: riscv64
+        - slug: LOONG64
+          vscode_arch: loong64
+          npm_arch: loong64
     env:
       BUILD_SOURCEVERSION: ${{ needs.compile.outputs.BUILD_SOURCEVERSION }}
       MS_COMMIT: ${{ needs.check.outputs.MS_COMMIT }}
