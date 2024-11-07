@@ -32,6 +32,7 @@ env:
   OS_NAME: linux
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
   VSCODE_QUALITY: stable
+  RELEASE_VERSION: 1.93.1.24256
 
 jobs:
   check:
