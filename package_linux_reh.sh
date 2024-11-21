@@ -54,7 +54,7 @@ elif [[ "${VSCODE_ARCH}" == "riscv64" ]]; then
   export VSCODE_NODEJS_URLROOT='/download/release'
 elif [[ "${VSCODE_ARCH}" == "loong64" ]]; then
   NODE_VERSION="20.16.0"
-  VSCODE_REMOTE_DEPENDENCIES_CONTAINER_NAME="vscodium/vscodium-linux-build-agent:trixie-devtoolset-loong64"
+  VSCODE_REMOTE_DEPENDENCIES_CONTAINER_NAME="ghcr.io/darkyzhou/vscodium-linux-build-agent:trixie-devtoolset-loong64"
 
   export ELECTRON_SKIP_BINARY_DOWNLOAD=1
   export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
